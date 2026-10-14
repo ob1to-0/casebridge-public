@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "mode": "explicit-allowlist",
+  "files": [
+    ".gitignore",
+    "LICENSE",
+    "LICENSES/MIT-legacy.txt",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "DISTRIBUTION.md",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "vite.config.ts",
+    "index.html",
+    "src/main.tsx",
+    "src/styles.css",
+    "src/components/PageHeader.tsx",
+    "src/components/SkeletonGrid.tsx",
+    "publication-manifest.json",
+    ".github/CODEOWNERS",
+    ".github/workflows/ci.yml",
+    "scripts/verify-public.mjs"
+  ],
+  "excluded": [
+    "private Git history and tags",
+    "backend source and binaries",
+    "application clients and stores",
+    "account/admin UI",
+    "migrations",
+    "deployment configuration",
+    "credentials"
+  ]
+}

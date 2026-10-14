@@ -1,0 +1,32 @@
+# Generated frontend files
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+# Private material must never enter this public workspace
+backend/
+core/
+private/
+secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.dump
+*.backup
+*.mv.db
+*.rdb
+*.aof
+artifacts/
+backups/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Only allowlisted files are exported; ignore rules alone are not an access boundary.
